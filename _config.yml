@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+# basic options
+title: Tutorials
+author: Sumit Pandey 
+email: sci.ml.shorts@gmail.com
+github_username:  Sumit-ai
+
+# Build settings
+markdown: kramdown
+theme: minima
