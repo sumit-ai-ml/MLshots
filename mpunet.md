@@ -16,3 +16,30 @@ git clone https://github.com/sumit-ai-ml/MultiPlanarUNet.git
 ```
 pip install -e MultiPlanarUNet
 ```
+_**Now how to use ?**_ 
+
+step 1: Data Preprocessing: 
+
+The dataset should be devided into 3 parts like this:
+```
+./data_folder/
+|- train/
+|--- images/
+|------ image1.nii.gz
+|------ image5.nii.gz
+|--- labels/
+|------ image1.nii.gz
+|------ image5.nii.gz
+|- val/
+|--- images/
+|--- labels/
+|- test/
+|--- images/
+|--- labels/
+|- aug/ <-- OPTIONAL
+|--- images/
+|--- labels/
+
+```
+- _the name of image and mask should be same_
+- the image format should be either .nii.gz or .nii
