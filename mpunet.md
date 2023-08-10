@@ -1,9 +1,6 @@
 #### Multiplanner UNet 
 
-Multiplanner UNet is an advanced version of UNet for 3d medical image segmentation, that is made by: Mathias Perslev, Erik Dam, Akshay Pai, and Christian Igel. here is the paper
-Pre-print version: https://arxiv.org/abs/1911.01764
-
-Published version: https://doi.org/10.1007/978-3-030-32245-8_4
+Multiplanner UNet is an advanced version of UNet for 3d medical image segmentation, that is made by: Mathias Perslev, Erik Dam, Akshay Pai, and Christian Igel. here is the paper: https://doi.org/10.1007/978-3-030-32245-8_4
 
 Here are the steps to install mpunet: 
 
