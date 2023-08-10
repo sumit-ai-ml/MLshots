@@ -59,14 +59,14 @@ _**Please Note:**_
 **Step 3: Training:**
 - After running above command you will see the another directory with ```data_folder``` named: ```my_project```. Now run this command to inside the ```my_project``` folder to intialize the training:
 
-```mp train --num_GPUs=2   # Any number of GPUs (or 0)```
+  ```mp train --num_GPUs=2   # Any number of GPUs (or 0)```
 
 - After this completes run this command:
 
- ```mp train_fusion --num_GPUs=2```
+  ```mp train_fusion --num_GPUs=2```
 
 - The trained model can now be evaluated on the testing data in data_folder/test by invoking:
 
-```mp predict --num_GPUs=2 --out_dir predictions```
+  ```mp predict --num_GPUs=2 --out_dir predictions```
 
  
